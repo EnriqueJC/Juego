@@ -2,37 +2,26 @@
 #include <stdlib.h>
 
 int main(int argc, char *argv[]) {
-	int res,cont;
+	int res,b[25],i;
+	
+	System("color ");
 	printf("SDSD\n");
-	printf("2.\n");
+	System("color");
 	printf("1.\n");
+	printf("2.\n");
+	printf("3.\n");
+	
 	scanf("%d",&res);
 	if(res==1){
-		printf("X");
-		cont++;
+			System("color");
+		printf("Correcto");
+		b[0]=1;
 	}else{
-		printf("ERROR");
-	}
-	printf("SDSD\n");
-	printf("2.\n");
-	printf("1.\n");
-	scanf("%d",&res);
-	if(res==1){
-		printf("X");
-		cont++;
-	}else{
-		printf("ERROR");
-	}
-		printf("SDSD\n");
-	printf("2.\n");
-	printf("1.\n");
-	scanf("%d",&res);
-	if(res==1){
-		printf("X");
-		cont++;
-	}else{
-		printf("ERROR");
-	}
-	printf("%d",cont);
-	return 0;
+		System("color");
+		printf("Incorrecto");
+		b[0]=0;
+		
+}
+
+return 0;
 }
