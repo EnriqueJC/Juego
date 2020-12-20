@@ -146,7 +146,7 @@ int main(int argc, char *argv[]) {
 		b2=b2+0;		
 }
 	system("cls");
-	system("color 72");
+	system("color A5");
 	printf("\t\t\t\t     Clasificacion GENERAL(Valor 2 punto) \n");
 	getch();
 	printf("\t\t\t\t Esta es una recopilacion alazar de varios temas\n");
@@ -240,7 +240,7 @@ int main(int argc, char *argv[]) {
 		b3=b3+0;
 }
 	system("cls");
-	printf("\n\n\t\t\tLos tres grandes Imperios que habian en America\n\t\t\tantes de la conquista española son:\n\n");
+	printf("\n\n\t\t\tLos tres grandes Imperios que habian en America\n\t\t\tantes del descubrimiento de America son:\n\n");
 	printf("\t\t\t1. Mesopotamia,Azteca,Maya\n");
 	printf("\t\t\t2. Azteca, Maya e Inca\n");
 	printf("\t\t\t3. Inca, Azteca y Mesopotamica\n");
@@ -265,22 +265,21 @@ int main(int argc, char *argv[]) {
 	system("color 02");
 	printf("\n\n\t\t\t\t PUNTUACIONES FINALES \n\n");
 	getch();
-	printf("\n\n\t\t\tClasificacioN PELICULAS: %d\n\n",b1);
+	printf("\n\n\t\t\tClasificacion PELICULAS: %d\n\n",b1);
 	if(b1<=3){
 		printf("\t\t\tTe falta cine muchacho");
 	}else if(b1>3){
 		printf("\t\t\tVeo que eres un hombre de cultura");
 	}
 	getch();
-	printf("\n\n\t\t\tClasificacioN ECUADOR: %d\n\n",b2);
+	printf("\n\n\t\t\tClasificacion ECUADOR: %d\n\n",b2);
 	if(b2<9){
 		printf("\t\t\tExtanjero has de ser");
 	}else if(b2>=9){
 		printf("\t\t\tSi eres de aqui mijin");
 	}
-	
 	getch();
-	printf("\n\n\t\t\tClasificacioN GENERAL: %d\n\n",b3);
+	printf("\n\n\t\t\tClasificacion GENERAL: %d\n\n",b3);
 	if(b3<16){
 		printf("\t\t\tNecesitas conectarte con la gente");
 	}else if(b3>=16){
